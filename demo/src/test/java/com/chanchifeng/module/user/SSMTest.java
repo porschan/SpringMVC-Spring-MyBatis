@@ -20,6 +20,6 @@ public class SSMTest {
     @Test
     public void test1() {
         SysUser sysUser = sysUserService.getById(1L);
-        System.out.println("--------------------------------" + sysUser.toString());
+        System.out.println("--------------------------------" + sysUser.getSysUserLoginName());
     }
 }

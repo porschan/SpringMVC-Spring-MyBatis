@@ -39,5 +39,10 @@ public class SysUserServiceImpl implements SysUserService {
     public int updateByPrimaryKeySelective(SysUser sysUser) {
         return sysUserMapper.updateByPrimaryKeySelective(sysUser);
     }
+
+    @Override
+    public int insertSelective(SysUser sysUser) {
+        return sysUserMapper.insertSelective(sysUser);
+    }
     /* END CURD */
 }

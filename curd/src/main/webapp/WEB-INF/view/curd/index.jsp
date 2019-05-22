@@ -16,7 +16,32 @@
 <body>
 CURD21
 <br>
+<h1>添加</h1>
 
+<form action="add" method="post">
+    <p>
+        <label>姓名：</label>
+        <input type="text" name="sysUserLoginName" id="sysUserLoginName"/>
+    </p>
+    <p>
+        <label>密码：</label>
+        <input type="password" name="sysUserLoginPassword" id="sysUserLoginPassword"/>
+    </p>
+
+<%--    <input type="hidden" name="sysUserStatus" id="sysUserStatus" value="0"/>--%>
+<%--    <input type="hidden" name="sysUserIsDelete" id="sysUserIsDelete" value="N"/>--%>
+<%--    <input type="hidden" name="sysUserRegisterDatetime" id="sysUserRegisterDatetime" value="2016-02-24 00:12:23"/>--%>
+<%--    <input type="hidden" name="sysUserRegisterSource" id="sysUserRegisterSource" value="0"/>--%>
+<%--    <input type="hidden" name="sysUserType" id="sysUserType" value="0"/>--%>
+<%--    <input type="hidden" name="sysUserSex" id="sysUserSex" value="Y"/>--%>
+<%--    <input type="hidden" name="sysUserIsEmailActive" id="sysUserIsEmailActive" value="Y"/>--%>
+<%--    <input type="hidden" name="sysUserIsMobileActive" id="sysUserIsMobileActive" value="Y"/>--%>
+<%--    <input type="hidden" name="sysUserRegisterType" id="sysUserRegisterType" value="0"/>--%>
+
+    <p>
+        <input type="submit" value="添加">
+    </p>
+</form>
 
 <table border="1">
     <tr>

@@ -12,5 +12,6 @@ public interface SysUserService {
     SysUser selectByPrimaryKey(Long sysUserId);
     int deleteByPrimaryKey(Long sysUserId);
     int updateByPrimaryKeySelective(SysUser sysUser);
+    int insertSelective(SysUser record);
     /* END CURD */
 }

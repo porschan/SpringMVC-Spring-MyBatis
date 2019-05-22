@@ -62,4 +62,15 @@ public class CurdController {
         return "redirect:/curdController/queryAll";
     }
 
+    @RequestMapping(value = "/add")
+    public String add(SysUser sysUser) {
+//        employeeDao.save(employee);
+
+        System.out.println(sysUser.getSysUserId() + "!!");
+
+        sysUserService.insertSelective(sysUser);
+
+        return "redirect:/curdController/queryAll";
+    }
+
 }

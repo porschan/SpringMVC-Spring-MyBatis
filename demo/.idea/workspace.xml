@@ -8,99 +8,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="55295f50-387d-47fb-a482-b696a6742a7a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/out/artifacts/demo_war/demo_war.war" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/demo_war_exploded/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/demo_war_exploded/WEB-INF/classes/com/chanchifeng/generator/mapper/SysUserMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/demo_war_exploded/WEB-INF/classes/com/chanchifeng/generator/mapper/SysUserMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/demo_war_exploded/WEB-INF/classes/com/chanchifeng/generator/pojo/SysUser.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/demo_war_exploded/WEB-INF/classes/com/chanchifeng/module/user/controller/SysUserController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/demo_war_exploded/WEB-INF/classes/com/chanchifeng/module/user/mapper/SysUserMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/demo_war_exploded/WEB-INF/classes/com/chanchifeng/module/user/pojo/SysUser.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/demo_war_exploded/WEB-INF/classes/com/chanchifeng/module/user/service/SysUserService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/demo_war_exploded/WEB-INF/classes/com/chanchifeng/module/user/service/impl/SysUserServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/demo_war_exploded/WEB-INF/classes/log4j.properties.back" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/demo_war_exploded/WEB-INF/classes/logback.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/demo_war_exploded/WEB-INF/classes/module/user/mapper/SysUserMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/demo_war_exploded/WEB-INF/classes/mybatis-generator-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/demo_war_exploded/WEB-INF/classes/mybatis/mybatis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/demo_war_exploded/WEB-INF/classes/properties/config.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/demo_war_exploded/WEB-INF/classes/spring/applicationContext-dataSource.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/demo_war_exploded/WEB-INF/classes/spring/applicationContext-mybatis.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/demo_war_exploded/WEB-INF/classes/spring/applicationContext-transaction.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/demo_war_exploded/WEB-INF/classes/spring/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/demo_war_exploded/WEB-INF/classes/spring/spring-mvc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/demo_war_exploded/WEB-INF/lib/aopalliance-1.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/demo_war_exploded/WEB-INF/lib/aspectjweaver-1.7.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/demo_war_exploded/WEB-INF/lib/commons-fileupload-1.3.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/demo_war_exploded/WEB-INF/lib/commons-io-2.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/demo_war_exploded/WEB-INF/lib/commons-lang3-3.3.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/demo_war_exploded/WEB-INF/lib/commons-logging-1.1.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/demo_war_exploded/WEB-INF/lib/druid-1.0.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/demo_war_exploded/WEB-INF/lib/jackson-annotations-2.4.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/demo_war_exploded/WEB-INF/lib/jackson-core-2.4.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/demo_war_exploded/WEB-INF/lib/jackson-databind-2.4.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/demo_war_exploded/WEB-INF/lib/jstl-1.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/demo_war_exploded/WEB-INF/lib/log4j-1.2.17.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/demo_war_exploded/WEB-INF/lib/logback-classic-1.1.7.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/demo_war_exploded/WEB-INF/lib/logback-core-1.1.7.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/demo_war_exploded/WEB-INF/lib/logback-ext-spring-0.1.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/demo_war_exploded/WEB-INF/lib/mybatis-3.2.6.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/demo_war_exploded/WEB-INF/lib/mybatis-spring-1.2.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/demo_war_exploded/WEB-INF/lib/mysql-connector-java-5.1.21.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/demo_war_exploded/WEB-INF/lib/persistence-api-1.0.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/demo_war_exploded/WEB-INF/lib/slf4j-api-1.7.20.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/demo_war_exploded/WEB-INF/lib/spring-aop-4.0.2.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/demo_war_exploded/WEB-INF/lib/spring-aspects-4.0.2.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/demo_war_exploded/WEB-INF/lib/spring-beans-4.0.2.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/demo_war_exploded/WEB-INF/lib/spring-context-4.0.2.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/demo_war_exploded/WEB-INF/lib/spring-context-support-4.0.2.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/demo_war_exploded/WEB-INF/lib/spring-core-4.0.2.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/demo_war_exploded/WEB-INF/lib/spring-expression-4.0.2.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/demo_war_exploded/WEB-INF/lib/spring-jdbc-4.0.2.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/demo_war_exploded/WEB-INF/lib/spring-orm-4.0.2.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/demo_war_exploded/WEB-INF/lib/spring-oxm-4.0.2.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/demo_war_exploded/WEB-INF/lib/spring-test-4.0.2.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/demo_war_exploded/WEB-INF/lib/spring-tx-4.0.2.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/demo_war_exploded/WEB-INF/lib/spring-web-4.0.2.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/demo_war_exploded/WEB-INF/lib/spring-webmvc-4.0.2.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/demo_war_exploded/WEB-INF/statics/css/占位符.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/demo_war_exploded/WEB-INF/statics/images/pic.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/demo_war_exploded/WEB-INF/statics/js/jQuery-core/jquery-1.10.2.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/demo_war_exploded/WEB-INF/statics/js/jQuery-core/jquery-1.4.4.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/demo_war_exploded/WEB-INF/statics/js/jQuery-core/jquery-1.6.4.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/demo_war_exploded/WEB-INF/statics/js/jQuery-core/jquery-1.8.3.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/demo_war_exploded/WEB-INF/statics/js/jQuery-core/jquery-1.9.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/demo_war_exploded/WEB-INF/statics/js/jQuery-core/jquery-2.0.3.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/demo_war_exploded/WEB-INF/statics/js/jQuery-core/jquery.md5.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/demo_war_exploded/WEB-INF/statics/js/plugins/占位符.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/demo_war_exploded/WEB-INF/view/common/tagPage.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/demo_war_exploded/WEB-INF/view/showUser.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/demo_war_exploded/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/demo_war_exploded/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/chanchifeng/generator/mapper/SysUserMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/chanchifeng/generator/mapper/SysUserMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/chanchifeng/generator/pojo/SysUser.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/chanchifeng/module/user/controller/SysUserController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/chanchifeng/module/user/mapper/SysUserMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/chanchifeng/module/user/pojo/SysUser.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/chanchifeng/module/user/service/SysUserService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/chanchifeng/module/user/service/impl/SysUserServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/log4j.properties.back" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/logback.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/module/user/mapper/SysUserMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/mybatis-generator-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/mybatis/mybatis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/properties/config.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/spring/applicationContext-dataSource.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/spring/applicationContext-mybatis.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/spring/applicationContext-transaction.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/spring/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/spring/spring-mvc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/com/chanchifeng/module/user/SSMTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../curd/curd.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../curd/src/main/webapp/WEB-INF/view/curd.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/chanchifeng/module/user/controller/SysUserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/chanchifeng/module/user/controller/SysUserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/chanchifeng/module/user/SSMTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/chanchifeng/module/user/SSMTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -114,146 +24,22 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/chanchifeng/module/user/mapper/SysUserMapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" selection-start-line="2" selection-end-line="52" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/chanchifeng/module/user/pojo/SysUser.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1118">
-              <caret line="631" column="1" selection-start-line="2" selection-end-line="631" selection-end-column="1" />
-              <folding>
-                <element signature="e#4619#4620#0" expanded="true" />
-                <element signature="e#4651#4652#0" expanded="true" />
-                <element signature="e#4943#4944#0" expanded="true" />
-                <element signature="e#4985#4986#0" expanded="true" />
-                <element signature="e#5281#5282#0" expanded="true" />
-                <element signature="e#5320#5321#0" expanded="true" />
-                <element signature="e#6056#6057#0" expanded="true" />
-                <element signature="e#6099#6100#0" expanded="true" />
-                <element signature="e#6844#6845#0" expanded="true" />
-                <element signature="e#6880#6881#0" expanded="true" />
-                <element signature="e#7575#7576#0" expanded="true" />
-                <element signature="e#7613#7614#0" expanded="true" />
-                <element signature="e#8348#8349#0" expanded="true" />
-                <element signature="e#8394#8395#0" expanded="true" />
-                <element signature="e#9139#9140#0" expanded="true" />
-                <element signature="e#9183#9184#0" expanded="true" />
-                <element signature="e#9930#9931#0" expanded="true" />
-                <element signature="e#9964#9965#0" expanded="true" />
-                <element signature="e#10626#10627#0" expanded="true" />
-                <element signature="e#10659#10660#0" expanded="true" />
-                <element signature="e#10958#10959#0" expanded="true" />
-                <element signature="e#11037#11038#0" expanded="true" />
-                <element signature="e#11347#11348#0" expanded="true" />
-                <element signature="e#11390#11391#0" expanded="true" />
-                <element signature="e#12165#12166#0" expanded="true" />
-                <element signature="e#12209#12210#0" expanded="true" />
-                <element signature="e#12984#12985#0" expanded="true" />
-                <element signature="e#13026#13027#0" expanded="true" />
-                <element signature="e#13780#13781#0" expanded="true" />
-                <element signature="e#13821#13822#0" expanded="true" />
-                <element signature="e#14544#14545#0" expanded="true" />
-                <element signature="e#14578#14579#0" expanded="true" />
-                <element signature="e#15257#15258#0" expanded="true" />
-                <element signature="e#15295#15296#0" expanded="true" />
-                <element signature="e#15997#15998#0" expanded="true" />
-                <element signature="e#16032#16033#0" expanded="true" />
-                <element signature="e#16711#16712#0" expanded="true" />
-                <element signature="e#16747#16748#0" expanded="true" />
-                <element signature="e#17439#17440#0" expanded="true" />
-                <element signature="e#17476#17477#0" expanded="true" />
-                <element signature="e#18169#18170#0" expanded="true" />
-                <element signature="e#18203#18204#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/chanchifeng/module/user/service/impl/SysUserServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" selection-start-line="2" selection-end-line="19" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/chanchifeng/module/user/service/SysUserService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" selection-start-line="2" selection-end-line="6" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/common/tagPage.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="14" selection-end-column="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/showUser.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="29" selection-end-line="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="44" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/chanchifeng/module/user/SSMTest.java">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="61">
+              <caret line="23" column="68" selection-start-line="23" selection-start-column="68" selection-end-line="23" selection-end-column="68" />
             </state>
           </provider>
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/log4j.properties">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/chanchifeng/module/user/controller/SysUserController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" selection-start-line="2" selection-end-line="50" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="1479">
+              <caret line="87" column="46" selection-start-line="87" selection-start-column="46" selection-end-line="87" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -271,6 +57,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>selectByPrimaryKey</find>
+      <find>spring-core</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -293,7 +80,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/chanchifeng/generator/pojo/SysUser.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/chanchifeng/module/user/mapper/SysUserMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/chanchifeng/module/user/service/SysUserService.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/chanchifeng/generator/mapper/SysUserMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/logback.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/chanchifeng/module/user/test.java" />
@@ -302,6 +88,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/chanchifeng/module/user/controller/SysUserController.java" />
         <option value="$PROJECT_DIR$/src/test/resources/log4j.properties" />
         <option value="$PROJECT_DIR$/src/test/java/com/chanchifeng/module/user/SSMTest.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -356,21 +143,9 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/demo.iml" />
-        <option value="$PROJECT_DIR$/.idea/compiler.xml" />
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-        <option value="$PROJECT_DIR$/.idea/encodings.xml" />
-        <option value="$PROJECT_DIR$/.idea/artifacts/demo_war_exploded.xml" />
-        <option value="$PROJECT_DIR$/.idea/artifacts/demo_war.xml" />
-      </list>
-    </option>
-  </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="15" />
-    <option name="width" value="2061" />
+    <option name="x" value="-7" />
+    <option name="width" value="1541" />
     <option name="height" value="1407" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -379,7 +154,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -418,66 +193,6 @@
               <item name="demo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="chanchifeng" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="chanchifeng" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="chanchifeng" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="chanchifeng" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
-              <item name="pojo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="chanchifeng" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="chanchifeng" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -493,30 +208,6 @@
               <item name="demo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="properties" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -526,25 +217,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="view" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="view" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="demo" type="b2602c69:ProjectViewProjectNode" />
@@ -558,27 +230,12 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -621,7 +278,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SSMTest.test1">
+  <component name="RunManager" selected="Tomcat Server.Tomcat 8.5.23">
     <configuration name="SSMTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="demo" />
       <extension name="coverage">
@@ -730,6 +387,9 @@
       <updated>1558429190554</updated>
       <workItem from="1558429193070" duration="4090000" />
       <workItem from="1558434745733" duration="1758000" />
+      <workItem from="1558441287849" duration="39000" />
+      <workItem from="1558510391357" duration="2142000" />
+      <workItem from="1558516976470" duration="52000" />
     </task>
     <servers />
   </component>
@@ -766,12 +426,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5848000" />
+    <option name="totallyTimeSpent" value="8081000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="15" y="0" width="2061" height="1407" extended-state="0" />
+    <frame x="-7" y="0" width="1541" height="1407" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2263868" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.54018915" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -818,14 +478,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/statics/js/plugins/占位符.txt">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="63" selection-start-line="24" selection-start-column="63" selection-end-line="24" selection-end-column="63" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/chanchifeng/generator/pojo/SysUser.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -918,27 +570,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="785">
-          <caret line="51" column="72" selection-end-line="111" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/chanchifeng/generator/mapper/SysUserMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/chanchifeng/module/user/controller/SysUserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" selection-start-line="2" selection-end-line="50" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -951,7 +586,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/chanchifeng/module/user/pojo/SysUser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1118">
+        <state relative-caret-position="10013">
           <caret line="631" column="1" selection-start-line="2" selection-end-line="631" selection-end-column="1" />
           <folding>
             <element signature="e#4619#4620#0" expanded="true" />
@@ -1045,13 +680,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/chanchifeng/module/user/SSMTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chanchifeng/module/user/controller/SysUserController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="50" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/chanchifeng/module/user/SSMTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="61">
+          <caret line="23" column="68" selection-start-line="23" selection-start-column="68" selection-end-line="23" selection-end-column="68" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1479">
+          <caret line="87" column="46" selection-start-line="87" selection-start-column="46" selection-end-line="87" selection-end-column="46" />
         </state>
       </provider>
     </entry>

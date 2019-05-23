@@ -38,6 +38,35 @@
     sys_user_qq_id
   </sql>
 
+  <!-- START 分页 + 模糊搜索-->
+
+  <!-- 全查 分页 模糊-->
+  <select id="selectAll" resultMap="BaseResultMap" parameterType="com.chanchifeng.module.user.pojo.SysUser">
+    SELECT * FROM sys_user
+    <where>
+      <if test=" sysUser.sysUserLoginName != null and sysUser.sysUserLoginName != '' ">
+        <bind name="sysUserLoginName" value=" '%' + sysUser.sysUserLoginName + '%' "></bind>
+        sys_user_login_name like #{sysUserLoginName}
+      </if>
+    </where>
+    limit #{startIndex},#{pageSize}
+  </select>
+
+  <!--统计总数-->
+  <select id="count" resultType="int" parameterType="com.chanchifeng.module.user.pojo.SysUser">
+    select count(*)
+    from sys_user
+    <where>
+      <if test=" sysUser.sysUserLoginName != null and sysUser.sysUserLoginName != '' ">
+        <bind name="sysUserLoginName" value=" '%' + sysUser.sysUserLoginName + '%' "></bind>
+        sys_user_login_name like #{sysUserLoginName}
+      </if>
+    </where>
+  </select>
+
+  <!-- END 分页 + 模糊搜索-->
+
+
   <select id="queryAll" parameterType="java.lang.Long" resultMap="BaseResultMap">
     <!--
       WARNING - @mbg.generated

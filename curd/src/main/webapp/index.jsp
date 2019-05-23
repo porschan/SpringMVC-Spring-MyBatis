@@ -29,5 +29,9 @@
 
 <a href="curdController/queryAll" target="_blank">CURD</a>
 
+<br>
+
+<a href="uploadController/index" target="_blank">upload</a>
+
 </body>
 </html>

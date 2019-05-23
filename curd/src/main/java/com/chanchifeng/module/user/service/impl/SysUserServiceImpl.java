@@ -3,6 +3,7 @@ package com.chanchifeng.module.user.service.impl;
 import com.chanchifeng.module.user.mapper.SysUserMapper;
 import com.chanchifeng.module.user.pojo.SysUser;
 import com.chanchifeng.module.user.service.SysUserService;
+import com.chanchifeng.module.user.vo.PageVo;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
@@ -44,5 +45,31 @@ public class SysUserServiceImpl implements SysUserService {
     public int insertSelective(SysUser sysUser) {
         return sysUserMapper.insertSelective(sysUser);
     }
+
     /* END CURD */
+
+
+    /* START 模糊搜索 + 分页*/
+
+    @Override
+    public PageVo<SysUser> selectAll(SysUser sysUser, int startIndex, int pageSize) {
+        int totalNum;
+        if(pageSize<=0){
+            totalNum = pageSize;
+        }else {
+            totalNum = sysUserMapper.count(sysUser);
+        }
+        PageVo<SysUser> pageVo = new PageVo<>(startIndex,pageSize,totalNum);
+        pageVo.setItems(sysUserMapper.selectAll(sysUser,pageVo.getStartIndex(),pageSize));
+        pageVo.setTotalNum(totalNum);
+        return pageVo;
+    }
+
+//    @Override
+//    public int count(SysUser sysUser) {
+//        return 0;
+//    }
+
+    /* END 模糊搜索 +  分页 */
+
 }

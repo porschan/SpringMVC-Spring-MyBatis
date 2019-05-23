@@ -1,4 +1,3 @@
-
 <%@ page import="java.util.List" %>
 <%@ page import="com.chanchifeng.module.user.pojo.SysUser" %><%--
   Created by IntelliJ IDEA.
@@ -12,6 +11,7 @@
 <html>
 <head>
     <title>curd</title>
+    <link rel="stylesheet" href="${pageContext.request.contextPath}/common/layerui/css/layui.css" media="all">
 </head>
 <body>
 CURD21
@@ -43,31 +43,74 @@ CURD21
     </p>
 </form>
 
-<table border="1">
-    <tr>
-        <th>编号</th>
-        <th>姓名</th>
-        <th>操作</th>
-    </tr>
-    <%
-        for(SysUser user:(List<SysUser>) request.getAttribute("users")){
-    %>
+<%--<table border="1">--%>
+<%--    <tr>--%>
+<%--        <th>编号</th>--%>
+<%--        <th>姓名</th>--%>
+<%--        <th>操作</th>--%>
+<%--    </tr>--%>
+<%--    <%--%>
+<%--        for(SysUser user:(List<SysUser>) request.getAttribute("users")){--%>
+<%--    %>--%>
 
-    <tr>
-        <td><%= user.getSysUserLoginName()%></td>
-        <td><%= user.getSysUserLoginPassword()%></td>
-        <td>
-            <a href="delete/<%= user.getSysUserId()%>">删除</a> |
-            <a href="queryById/<%= user.getSysUserId()%>">修改</a>
-        </td>
-    </tr>
+<%--    <tr>--%>
+<%--        <td><%= user.getSysUserLoginName()%></td>--%>
+<%--        <td><%= user.getSysUserLoginPassword()%></td>--%>
+<%--        <td>--%>
+<%--            <a href="delete/<%= user.getSysUserId()%>">删除</a> |--%>
+<%--            <a href="queryById/<%= user.getSysUserId()%>">修改</a>--%>
+<%--        </td>--%>
+<%--    </tr>--%>
 
-    <%
-        }
-    %>
-</table>
+<%--    <%--%>
+<%--        }--%>
+<%--    %>--%>
+<%--</table>--%>
 
-<script type="text/javascript" src="${webRoot}/curd/js/jQuery-core/jquery-1.6.4.min.js"></script>
+layerUI - jquery
+
+条件搜索：
+sysUserLoginName:<input type="text" id="sysUserLoginNameSearch" value="1">
+
+<table id="demo" lay-filter="test"></table>
+
+<script src="${pageContext.request.contextPath}/js/jquery-3.4.1.min.js"></script><!-- 你必须先引入jQuery1.8或以上版本 -->
+<script src="${pageContext.request.contextPath}/common/layerui/layui.js"></script>
+
+<script>
+    layui.use('table', function(){
+        var table = layui.table;
+
+        //第一个实例
+        table.render({
+            elem: '#demo'
+            ,height:510
+            ,url: 'curd_findAllJSON' //数据接口
+            ,where:{
+                sysUserLoginName:$("#sysUserLoginNameSearch").val()
+            }
+            ,response: {
+                countName:'totalNum'
+                ,dataName: 'items'
+                ,statusName: 'code'
+            }
+            ,page: true //开启分页
+            ,limit: 10
+            ,cols: [[ //表头
+                {field: 'sysUserLoginName', title: 'ID', width:80, sort: true, fixed: 'left'}
+                ,{field: 'sysUserLoginPassword', title: '用户名', width:80}
+
+                ,{field:'title', title: '文章标题', width: 150
+                    ,templet: function(d){
+                        return '<a class="layui-btn layui-btn-sm layui-btn-danger" href="delete/' + d.sysUserId + '">删除</a>' +
+                            '<a class="layui-btn layui-btn-sm layui-btn-normal" href="queryById/' + d.sysUserId + '">修改</a>'
+                    }
+                }
+            ]]
+        });
+
+    });
+</script>
 
 </body>
 </html>

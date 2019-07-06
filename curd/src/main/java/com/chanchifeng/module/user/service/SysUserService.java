@@ -21,7 +21,5 @@ public interface SysUserService {
 
     PageVo<SysUser> selectAll(@Param("sysUser") SysUser sysUser, @Param("startIndex") int startIndex, @Param("pageSize") int pageSize);
 
-//    int count(@Param("sysUser") SysUser sysUser);
-
     /* END 分页 + 模糊搜索 */
 }

@@ -65,11 +65,6 @@ public class SysUserServiceImpl implements SysUserService {
         return pageVo;
     }
 
-//    @Override
-//    public int count(SysUser sysUser) {
-//        return 0;
-//    }
-
     /* END 模糊搜索 +  分页 */
 
 }

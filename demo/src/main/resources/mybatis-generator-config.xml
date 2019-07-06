@@ -25,7 +25,7 @@
         </commentGenerator>
 
         <!--添加你的 JDBC 连接信息-->
-        <jdbcConnection driverClass="com.mysql.jdbc.Driver" connectionURL="jdbc:mysql://127.0.0.1:3306/ssmdemo" userId="root" password="1qaz2wsx"/>
+        <jdbcConnection driverClass="com.mysql.jdbc.Driver" connectionURL="jdbc:mysql://127.0.0.1:3306/smybatisdemo" userId="root" password="1qaz2wsx"/>
 
         <javaTypeResolver>
             <property name="forceBigDecimals" value="false"/>
@@ -50,7 +50,8 @@
 
         <!--要根据哪张表生成，要在这里配置-->
         <!--用百分号表示生成所有表,可以直接省去一个一个写 <table tableName="%" /> -->
-        <table tableName="sys_user" enableCountByExample="false" enableDeleteByExample="false" enableSelectByExample="false" enableUpdateByExample="false"/>
+<!--        <table tableName="sys_user" enableCountByExample="false" enableDeleteByExample="false" enableSelectByExample="false" enableUpdateByExample="false"/>-->
+        <table tableName="user" enableCountByExample="false" enableDeleteByExample="false" enableSelectByExample="false" enableUpdateByExample="false"/>
 
 
     </context>
